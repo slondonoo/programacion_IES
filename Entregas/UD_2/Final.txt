@@ -1,0 +1,105 @@
+U2 - Examen MAÑANA AZUL 05_11_2020
+Ejercicio 1:
+Escribir un programa que solicite al usuario un número de tarjeta de crédito del BANCO - ERESUNPRIMO y que valide lo siguiente:
+
+El formato del número que debe ser (incluyendo los guiones) así: 2222-3333-44-0123456789
+En este formato los 4 primeros dígitos (2222) corresponde a la entidad, el BANCO - ERESUNPRIMO.
+
+Los 4 siguientes corresponden a la sucursal (3333).
+
+Los 2 siguiente al número de control  (44)
+
+Los 10 últimos corresponden el número de cuenta.
+
+Esos 10 últimos números en todas las cuentas del BANCO - ERESUNPRIMO deben ser un número primo.
+Ejemplo:
+
+Introduce el número de cuenta:
+
+1233342341234124123
+
+No es un de cuenta válido
+
+Introduce un número de cuenta.
+
+2222-3333-44-0000000007
+
+Es un número de cuenta válido.
+
+
+Ejercicio 2:
+Realizar un programa que  solicite al usuario un número entero y que lo siga solicitando mientras ese número no sea positivo.
+
+Una vez hecho esto solicitará al usuario una posición de inicio y una posición de final y mostrará el número habiéndole quitado todos los dígitos entre esas dos posiciones. (Supondremos que el usuario es "bueno" y mete correctamente las posiciones y que la primera posición es la posición 0.
+
+Ejemplo 1:
+
+Introduce el número: 1234567
+
+Posición inicial: 2
+
+Posición final: 4
+
+El número resultante es: 1267
+
+Ejemplo 2:
+
+Introduce el número: 123456789
+
+Posición Inicial: 5
+
+Posición final: 7
+
+El número resultante es: 123459
+
+NOTA: NO SE PUEDEN UTILIZAR FUNCIONES DE CADENAS
+Ejercicio 3:
+Realizar un programa que dibuja flechas señalando hacia la izquierda. Se solicitará al usuario la altura de la flecha que deberá ser impar y mayor o igual que tres. En caso de no ser así se seguirá solicitando la altura:
+
+El "palito" de la flecha será siempre de 5 caracteres "*"
+
+Ejemplo:
+
+Introduzca la altura de la flecha: 3
+
+ 
+
+Introduzca la altura de la flecha: 5
+
+
+
+Introduzca la altura de la flecha: 7
+
+
+
+Ejercicio 4:
+
+Realiza un programa que nos diga si hay probabilidad de que nuestra pareja nos está siendo infiel. El programa irá haciendo preguntas que el usuario contestará con verdadero o falso. Cada pregunta contestada como verdadero sumará 3 puntos. Las preguntas contestadas con falso no suman puntos. A continuación se listan las preguntas del test.
+
+1. Tu pareja parece estar más inquieta de lo normal sin ningún motivo
+aparente.
+2. Ha aumentado sus gastos de vestuario
+3. Ha perdido el interés que mostraba anteriormente por ti
+4. Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se
+arregla el pelo y se asea con más frecuencia (si es mujer)
+5. No te deja que mires la agenda de su teléfono móvil
+6. A veces tiene llamadas que dice no querer contestar cuando estás tú
+delante
+7. Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a
+8. Muchos días viene tarde después de trabajar porque dice tener mucho
+más trabajo
+9. Has notado que últimamente se perfuma más
+10. Se confunde y te dice que ha estado en sitios donde no ha ido contigo
+
+A continuación se muestran los mensajes que deberá dar el programa según
+la puntuación obtenida.
+
+
+• Puntuación entre 0 y 10: ¡Enhorabuena! tu pareja parece ser totalmente
+fiel.
+• Puntuación entre 11 y 22: Quizás exista el peligro de otra persona en su
+vida o en su mente, aunque seguramente será algo sin importancia. No
+bajes la guardia.
+• Puntuación entre 22 y 30: Tu pareja tiene todos los ingredientes para estar
+viviendo un romance con otra persona. Te aconsejamos que indagues un
+poco más y averigües que es lo que está pasando por su cabeza.
